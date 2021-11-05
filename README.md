@@ -9,6 +9,7 @@
 + <a href="#faq">FAQ's</a>
 + <a href="#issues">known Issues</a>
 + <a href="#contact">get in touch</a>
++ <a href="#screenshots">Screenshots</a>
 
 #
 
@@ -107,6 +108,9 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 | Homepage | - |
 
 #
+
+>### Screenshot <a href="#top" width="12px">to top</a>
+<sub id="screenshot"></sub>
 | | |
 | - | - |
 | <img src="images/eary_stage/active_prefs.png" width="150px" height="150"> | Preferences View |
