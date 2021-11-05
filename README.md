@@ -107,6 +107,7 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 | Homepage | - |
 
 #
+<<<<<<< HEAD
 | | |
 | - | - |
 | <img src="images/eary_stage/active_prefs.png" width="150px" height="150"> | Preferences View |
@@ -117,3 +118,7 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 | <img src="images/eary_stage/prop_tuning.png" width="150px" height="150"> | Blender Properties altered in Panel |
 | <img src="images/eary_stage/viewport_madness.png" width="150px" height="150"> | a couple viewports drawn and its content changed from Pie-Menu only |
 | <img src="images/eary_stage/workspaces.png" width="150px" height="150"> | switched workspaces from Pie-Menu only |
+=======
+
+<img src="images/eary_stage/active_prefs.png" width="200px" height="200px" />
+>>>>>>> a3a8791fa5146b3832a460a30c987278a4170c05
