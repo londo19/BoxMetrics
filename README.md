@@ -1,7 +1,7 @@
 # BoxMetric
 <sub id="top"></sub>
 
->### Table of Context
+>## Table of Context
 + Features
 + <a href="#require">Requirements</a>
 + <a href="#install">Installation</a>
@@ -13,27 +13,35 @@
 
 #
 
-<br />
 
->### Features
 
 <br />
 
-_*a Blender Toolkit to optimize Blender's UI*_
+>## Features
 
-_**do to**_
+<br />
+
+* runs on native Blender
+* let Blender decide how to calculate pivot axes by toggle on _**auto Orientation**_. <br />Blender will switch **transform Orientation** to _local_, everytime **Edit-Mode** has entered
+* split the viewport and switch to any of the awailable Viewports using the **Pie-Menu**
+* switch to any Workspace from **Pie-Menu**
+* When in **OBJECT-Mode** and _double-click_ on any **MESH-Object** <br />you will get a Panel being drawn within the Viewport that contains all kind of useful Properties <br />which are related to the given Obejct. _see the [manual](docs\manual.md) for further Information._
+
+
 
 #
 
->### Requirements <a href="#top" style="font-size:12px">to top</a>
+>## Requirements <a href="#top" style="font-size:12px">to top</a>
 <sub id="require"></sub>
 <br />
 
-A copy of [Blender](https://www.blender.org/download/) v2.80 or higher
++ A copy of [Blender](https://www.blender.org/download/) v2.80 or higher
++ no other Addons required
++ no third-party software required
 
 #
 
->### Installation <a href="#top" style="font-size:12px">to top</a>
+>## Installation <a href="#top" style="font-size:12px">to top</a>
 <sub id="install"></sub>
 <br />
 
@@ -54,7 +62,7 @@ ___Menu > Edit > Preferences___
 
 #
 
->### Usage <a href="#top" style="font-size:12px">to top</a>
+>## Usage <a href="#top" style="font-size:12px">to top</a>
 <sub id="use"></sub>
 
 
@@ -78,19 +86,13 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 
 #
 
->### FAQ <a href="#top" style="font-size:12px">to top</a>
+>## FAQ <a href="#top" style="font-size:12px">to top</a>
 <sub id="faq"></sub>
 <br />
 
-+ reset to default Viewport, when the viewport had been split 
-+ reorder Elements of the Object-Panel
-+ add/ reorder Elements to mirror Blender's properties at best
-+ stress testing
-+ possible additional features
-
 #
 
->### Known Issues <a href="#top" style="font-size:12px;">to top</a>
+>## Known Issues <a href="#top" style="font-size:12px;">to top</a>
 <sub id="issues"></sub>
 
 * abnormal loadtime on nested objects with unapplied bevel/subdiv modifier
@@ -98,7 +100,7 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 
 #
 
->### Contact <a href="#top" width="12px">to top</a>
+>## Contact <a href="#top" width="12px">to top</a>
 <sub id="contact"></sub>
 
 |  |  |
@@ -109,7 +111,7 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 
 #
 
->### Screenshot <a href="#top" width="12px">to top</a>
+>## Screenshot <a href="#top" width="12px">to top</a>
 <sub id="screenshot"></sub>
 | | |
 | - | - |
