@@ -11,7 +11,6 @@
 
 _*a Blender Toolkit*_
 
-
 > The simpliest to explain is the first one `add Primitive`.<br>
 > It simply adds some of the Primitives that Blender provides to the active viewport,<br>
 > except that these primitives already has a Bevel modifier added<br>
@@ -27,14 +26,12 @@ _*a Blender Toolkit*_
 
 ---
 
-<sub id="require"></sub> 
-### Requirements
+###<sub id="require">Requirements</sub>
 <a href="#top">to top</a>
 
 + A copy of [Blender](https://www.blender.org/download/) v2.80 or higher
 
-<sub id="install"></sub>
-### Installation
+<sub id="install">### Installation</sub>
 <a href="#top">to top</a>
 
 + download [boxmetric.zip]() and push it into Blender's default Addon path<br>or any other folder of your choice.
@@ -47,8 +44,7 @@ _*a Blender Toolkit*_
 + you will see a tiny checkbox to the left of the addon's name, tick it to activate the addon.
 + a click on the arrow right beside the checkbox will expand the addon-panel<br> to give access to the addon-settings. Here you can customize the addon to your liking.
 
-<sub id="use"></sub>
-### Usage
+<sub id="use">### Usage</sub>
 <a href="#top">to top</a>
 
 BoxMetric uses a Pie-Menu what can be access via `ctrl + y` by default.<br>
@@ -80,14 +76,12 @@ The Panel gets disabled only if one of the following triggers:
 | `malfunction` | _(faulty terminated)_ |
 
 
-<sub id="faq"></sub>
-### FAQ
+<sub id="faq">### FAQ</sub>
 <a href="#top">to top</a>
 
 **to Do**
 
-<sub id="issues"></sub>
-### Known Issues
+<sub id="issues">### Known Issues</sub>
 <a href="#top">to top</a>
 
 * abnormal loadtime on nested objects with unapplied bevel/subdiv modifier
