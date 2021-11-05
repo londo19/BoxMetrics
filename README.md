@@ -108,4 +108,4 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 
 #
 
-![](./images/eary_stage/active_prefs.png?v=4&s=200)
+![](images/eary_stage/active_prefs.png)
