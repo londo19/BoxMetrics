@@ -2,15 +2,18 @@
 <sub id="top"></sub>
 
 ### Table of Context
-+ Information and Description of the Addon itself and its features
++ Features
 + <a href="#require">Requirements</a>
 + <a href="#install">Installation</a>
 + <a href="#use">Usage</a>
 + <a href="#faq">FAQ's</a>
 + <a href="#issues">known Issues</a>
-
-_*a Blender Toolkit*_
-
++ <a href="#contact">get in touch</a>
+#
+<br />
+### Features
+<br />
+_*a Blender Toolkit to optimize Blender's UI*_
 > The simpliest to explain is the first one `add Primitive`.<br>
 > It simply adds some of the Primitives that Blender provides to the active viewport,<br>
 > except that these primitives already has a Bevel modifier added<br>
@@ -22,17 +25,21 @@ _*a Blender Toolkit*_
 > The BoxMetric > switch Viewport let you switch the viewport to your liking at any depth.<br>
 > It also works in full screen mode _`ctrl + alt + space`_.<br>
 > In which you do not even have the ability to access the default switch button.<br>
-> You would have to exit the full screen mode first and look out for the  
+> You would have to exit the full screen mode first and look out for the
 
----
+#
 
-###<sub id="require">Requirements</sub>
-<a href="#top">to top</a>
+### Requirements <a href="#top" style="font-size:12px">to top</a>
+<sub id="require"></sub>
+<br />
 
 + A copy of [Blender](https://www.blender.org/download/) v2.80 or higher
 
-<sub id="install">### Installation</sub>
-<a href="#top">to top</a>
+#
+
+### Installation <a href="#top" style="font-size:12px">to top</a>
+<sub id="install"></sub>
+<br />
 
 + download [boxmetric.zip]() and push it into Blender's default Addon path<br>or any other folder of your choice.
 + open up your Blender Solution and navigate to the preferences<br>_Menu > Edit > Preferences_
@@ -44,8 +51,11 @@ _*a Blender Toolkit*_
 + you will see a tiny checkbox to the left of the addon's name, tick it to activate the addon.
 + a click on the arrow right beside the checkbox will expand the addon-panel<br> to give access to the addon-settings. Here you can customize the addon to your liking.
 
-<sub id="use">### Usage</sub>
-<a href="#top">to top</a>
+#
+
+### Usage <a href="#top" style="font-size:12px">to top</a>
+<sub id="use"></sub>
+
 
 BoxMetric uses a Pie-Menu what can be access via `ctrl + y` by default.<br>
 The Pie-Menu works in any viewport and regardless of mode (object|edit).<br>
@@ -64,26 +74,34 @@ Only if the object is of a proper kind the Object-Panel will show up and you get
 
 You can left-click-hold on the Panel's background to drag it around.<br>
 You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<br>
-The Panel gets disabled only if one of the following triggers:
 
-| Condition | closing state |
-| --- | --- |
-| `right mouse`- click | _(correctly closed)_ |
-| `ESC` pushed | _(correctly closed)_ |
-| `hide` button activated | _(correctly closed)_ |
-| `selectable` button activated | _(correctly closed)_ |
-| `cursor` leaves Panel bounds | _(aborted)_ |
-| `malfunction` | _(faulty terminated)_ |
+#
 
+### FAQ <a href="#top" style="font-size:12px">to top</a>
+<sub id="faq"></sub>
+<br />
 
-<sub id="faq">### FAQ</sub>
-<a href="#top">to top</a>
++ reset to default Viewport, when the viewport had been split 
++ reorder Elements of the Object-Panel
++ add/ reorder Elements to mirror Blender's properties at best
++ stress testing
++ possible additional features
 
-**to Do**
+#
 
-<sub id="issues">### Known Issues</sub>
-<a href="#top">to top</a>
+### Known Issues <a href="#top" style="font-size:12px">to top</a>
+<sub id="issues"></sub>
 
 * abnormal loadtime on nested objects with unapplied bevel/subdiv modifier
 * in certain situation the raycast goes through the object and hits the object behind
-* Scale/ Dimension slider values only gets updated when releasing the mouse button
+
+#
+
+### Contact <a href="#top" style="font-size:12px">to top</a>
+<sub id="contact"></sub>
+
+|  |  |
+| --- | -------|
+| Email | - |
+| Discord | - |
+| Homepage | - |
