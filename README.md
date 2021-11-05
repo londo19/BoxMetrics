@@ -107,5 +107,13 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 | Homepage | - |
 
 #
-
-![](./images/eary_stage/active_prefs.png?v=4&s=200)
+| | |
+| - | - |
+| <img src="images/eary_stage/active_prefs.png" width="150px" height="150"> | Preferences View |
+| <img src="images/eary_stage/autoOrient.png" width="150px" height="150"> | auto Transform Orientation activated |
+| <img src="images/eary_stage/no_autoOrient.png" width="150px" height="150"> | auto Transform Orientation deactivated |
+| <img src="images/eary_stage/panel_active.png" width="150px" height="150"> | Panel after double click |
+| <img src="images/eary_stage/panel_changings.png" width="150px" height="150"> | some altered Properties |
+| <img src="images/eary_stage/prop_tuning.png" width="150px" height="150"> | Blender Properties altered in Panel |
+| <img src="images/eary_stage/viewport_madness.png" width="150px" height="150"> | a couple viewports drawn and its content changed from Pie-Menu only |
+| <img src="images/eary_stage/workspaces.png" width="150px" height="150"> | switched workspaces from Pie-Menu only |
