@@ -1,7 +1,7 @@
 # BoxMetric
 <sub id="top"></sub>
 
-### Table of Context
+>### Table of Context
 + Features
 + <a href="#require">Requirements</a>
 + <a href="#install">Installation</a>
@@ -14,23 +14,25 @@
 
 <br />
 
-### Features
+>### Features
 
 <br />
+
 _*a Blender Toolkit to optimize Blender's UI*_
-> do to
+
+_**do to**_
 
 #
 
-### Requirements <a href="#top" style="font-size:12px">to top</a>
+>### Requirements <a href="#top" style="font-size:12px">to top</a>
 <sub id="require"></sub>
 <br />
 
-+ A copy of [Blender](https://www.blender.org/download/) v2.80 or higher
+A copy of [Blender](https://www.blender.org/download/) v2.80 or higher
 
 #
 
-### Installation <a href="#top" style="font-size:12px">to top</a>
+>### Installation <a href="#top" style="font-size:12px">to top</a>
 <sub id="install"></sub>
 <br />
 
@@ -48,9 +50,10 @@ ___Menu > Edit > Preferences___
 + you will see a tiny checkbox to the left of the addon's name, tick it to activate the addon.
 + a click on the arrow right beside the checkbox will expand the addon-panel<br> to give access to the addon-settings. Here you can customize the addon to your liking.
 
+
 #
 
-### Usage <a href="#top" style="font-size:12px">to top</a>
+>### Usage <a href="#top" style="font-size:12px">to top</a>
 <sub id="use"></sub>
 
 
@@ -74,7 +77,7 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 
 #
 
-### FAQ <a href="#top" style="font-size:12px">to top</a>
+>### FAQ <a href="#top" style="font-size:12px">to top</a>
 <sub id="faq"></sub>
 <br />
 
@@ -86,7 +89,7 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 
 #
 
-### Known Issues <a href="#top" style="font-size:12px">to top</a>
+>### Known Issues <a href="#top" style="font-size:12px;">to top</a>
 <sub id="issues"></sub>
 
 * abnormal loadtime on nested objects with unapplied bevel/subdiv modifier
@@ -94,7 +97,7 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 
 #
 
-### Contact <a href="#top" style="font-size:12px">to top</a>
+>### Contact <a href="#top" width="12px">to top</a>
 <sub id="contact"></sub>
 
 |  |  |
