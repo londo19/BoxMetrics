@@ -25,7 +25,7 @@
 * let Blender decide how to calculate pivot axes by toggle on _**auto Orientation**_. <br />Blender will switch **transform Orientation** to _local_, everytime **Edit-Mode** has entered
 * split the viewport and switch to any of the awailable Viewports using the **Pie-Menu**
 * switch to any Workspace from **Pie-Menu**
-* When in **OBJECT-Mode** and _double-click_ on any **MESH-Object** <br />you will get a Panel being drawn within the Viewport that contains all kind of useful Properties <br />which are related to the given Obejct. _see the [manual](docs\manual.md) for further Information._
+* When in **OBJECT-Mode** and _double-click_ on any **MESH-Object** <br />you will get a Panel being drawn within the Viewport that contains all kind of useful Properties <br />which are related to the given Obejct. _see the [manual](docs/manual.md) for further Information._
 
 
 
