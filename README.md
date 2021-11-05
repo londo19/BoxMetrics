@@ -9,23 +9,16 @@
 + <a href="#faq">FAQ's</a>
 + <a href="#issues">known Issues</a>
 + <a href="#contact">get in touch</a>
+
 #
+
 <br />
+
 ### Features
+
 <br />
 _*a Blender Toolkit to optimize Blender's UI*_
-> The simpliest to explain is the first one `add Primitive`.<br>
-> It simply adds some of the Primitives that Blender provides to the active viewport,<br>
-> except that these primitives already has a Bevel modifier added<br>
-> and it set to `shade smooth` and `autosmooth 30°`.
->
-> `switch viewport`: This tab contains all available views to change the active viewport to.<br>
-> Blender provides the feature to split of the viewports to any depth.<br>
-> But the newly created viewport inherits the view it was created from.<br>
-> The BoxMetric > switch Viewport let you switch the viewport to your liking at any depth.<br>
-> It also works in full screen mode _`ctrl + alt + space`_.<br>
-> In which you do not even have the ability to access the default switch button.<br>
-> You would have to exit the full screen mode first and look out for the
+> do to
 
 #
 
@@ -41,12 +34,16 @@ _*a Blender Toolkit to optimize Blender's UI*_
 <sub id="install"></sub>
 <br />
 
-+ download [boxmetric.zip]() and push it into Blender's default Addon path<br>or any other folder of your choice.
-+ open up your Blender Solution and navigate to the preferences<br>_Menu > Edit > Preferences_
-+ in the opened Panel navigate to the **Add-ons** tab on the left hand site.
-+ in the upper right corner a button **Install** shows up. click on that.
-+ in the upcoming folder dialog, navigate to the folder you have stored [boxmetric]() in<br> select _boxmetric.zip_ and finally click on **Install Add-on**.
++ download [boxmetric.zip]() or clone this repository
++ open up your Blender Solution and navigate to the preferences
+<br>
+___Menu > Edit > Preferences___
++ in the opened Panel navigate to the **Addons** tab on the left hand site.
++ in the upper right corner, click on the button **"install"**
++ in the upcoming folder dialog, navigate to the folder where you have stored [boxmetric]() in
++ select either the _boxmetric.zip_ or the _"\_\_init\_\_.py"_ and click on **Install Add-on**.
 + boxmetric is goint to be installed right away.
++ check the Status Message to verify the installation. __green msg = success | red msg = error__ 
 + after the installation the addon list will be filtered by boxmetric
 + you will see a tiny checkbox to the left of the addon's name, tick it to activate the addon.
 + a click on the arrow right beside the checkbox will expand the addon-panel<br> to give access to the addon-settings. Here you can customize the addon to your liking.
