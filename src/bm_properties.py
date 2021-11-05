@@ -22,8 +22,8 @@ from bpy.types import AddonPreferences
 from .backbone.bm_config import BM_ConfigManager
 
 from .backbone.bm_helper import package_name, preferences, rebuildTuple, updateProp
-from .backbone.bm_general_prefs import BM_PiePrefs
-from .backbone.bm_pie_prefs import BM_GeneralPrefs
+from .backbone.bm_general_prefs import BM_GeneralPrefs
+from .backbone.bm_pie_prefs import BM_PiePrefs
 
 
 class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
@@ -43,26 +43,26 @@ class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
     # retrieve all necessary data from the config file
     cm = BM_ConfigManager()
     _bm_prefs = preferences(bpy.context, __file__)
-    #bm_prop_tabs = rebuildTuple(cm.config['GLOBAL']['ds_PropertyTabs'])
-    #bm_pie_items = rebuildTuple(cm.config['GLOBAL']['ds_PieItems'])
+    bm_prop_tabs = rebuildTuple(cm.config['GLOBAL']['ds_PropertyTabs'])
+    # bm_pie_items = rebuildTuple(cm.config['GLOBAL']['ds_PieItems'])
 
-    bm_prop_tabs = [
-        ("GENERAL", "General", "", "",1),
-        ("SCENE", "Scene", "","",2),
-        ("OBJECT", "Object", "","",3),
-        ("PIE", "Pie-Menu", "","",4)
-    ]
-    bm_pie_items = [
-        ("vp", "bm_viewport", "show/hide Dropdown in Pie-Menu", "", 1),
-        ("ws", "bm_workspaces", "show/hide Dropdown in Pie-Menu", "", 2)
-    ]
+    # bm_prop_tabs = [
+    #     ("GENERAL", "General", "", "",1),
+    #     ("SCENE", "Scene", "","",2),
+    #     ("OBJECT", "Object", "","",3),
+    #     ("PIE", "Pie-Menu", "","",4)
+    # ]
+    # bm_pie_items = [
+    #     ("vp", "bm_viewport", "show/hide Dropdown in Pie-Menu", "", 1),
+    #     ("ws", "bm_workspaces", "show/hide Dropdown in Pie-Menu", "", 2)
+    # ]
 
     BM_PropTabsEnum:EnumProperty(
         items=bm_prop_tabs
     )
-    BM_PieItems: EnumProperty(
-        items=bm_pie_items,
-    )
+    # BM_PieItems: EnumProperty(
+    #     items=bm_pie_items,
+    # )
 
     def draw(self, context):
         """Method to display certian Information in a formatted manner.
@@ -71,8 +71,6 @@ class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
             context (any): (read-only)properties of the area that called the method.
         """
 
-
-        
         # define the layout
         layout = self.layout
         row = layout.row()
