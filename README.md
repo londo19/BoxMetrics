@@ -108,4 +108,4 @@ You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<
 
 #
 
-![](images/eary_stage/active_prefs.png){:height="700px" width="400px"}
+<img src="images/eary_stage/active_prefs.png" width="200px" height="200px" />
