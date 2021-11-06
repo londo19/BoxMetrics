@@ -2,18 +2,16 @@
 <sub id="top"></sub>
 
 >## Table of Context
-+ Features
-+ <a href="#require">Requirements</a>
-+ <a href="#install">Installation</a>
-+ <a href="#use">Usage</a>
-+ <a href="#faq">FAQ's</a>
-+ <a href="#issues">known Issues</a>
-+ <a href="#contact">get in touch</a>
-+ <a href="#screenshots">Screenshots</a>
+>+ Features
+>+ <a href="#require">Requirements</a>
+>+ <a href="#install">Installation</a>
+>+ <a href="#use">Usage</a>
+>+ <a href="#faq">FAQ's</a>
+>+ <a href="#issues">known Issues</a>
+>+ <a href="#contact">get in touch</a>
+>+ <a href="#screenshots">Screenshots</a>
 
 #
-
-
 
 <br />
 
@@ -26,8 +24,6 @@
 * split the viewport and switch to any of the awailable Viewports using the **Pie-Menu**
 * switch to any Workspace from **Pie-Menu**
 * When in **OBJECT-Mode** and _double-click_ on any **MESH-Object** <br />you will get a Panel being drawn within the Viewport that contains all kind of useful Properties <br />which are related to the given Obejct. _see the [manual](docs/manual.md) for further Information._
-
-
 
 #
 
@@ -59,36 +55,32 @@ ___Menu > Edit > Preferences___
 + you will see a tiny checkbox to the left of the addon's name, tick it to activate the addon.
 + a click on the arrow right beside the checkbox will expand the addon-panel<br> to give access to the addon-settings. Here you can customize the addon to your liking.
 
-
 #
 
 >## Usage <a href="#top" style="font-size:12px">to top</a>
 <sub id="use"></sub>
 
++ `Pie-Menu`: use _Ctrl+Y_ or your bound key in any Viewport to open BoxMetrix's Pie-Menu<br />and pic any of its containing Elements: `(auto Orientation, switch Workspace, switch Viewport)`
++ `Panel`: only awailable in `Object-Mode` and on a Type `MESH-Object` selected.
 
-BoxMetric uses a Pie-Menu what can be access via `ctrl + y` by default.<br>
-The Pie-Menu works in any viewport and regardless of mode (object|edit).<br>
-You can choose from 3 tabs to either
-+ add Primitive
-+ switch viewport
-+ switch workspace
+    + `double-click` on a legit Object will
 
-Simply move the mouse over the pill of your choice. The underlaying Sub-Menu will appear right away.<br>
-Navigate to the item of your choice and after a last `left mouse` click on the item,<br>
-the choosen feature is going to be executed in the viewport the Pie-Menu was called from.
 
-To activate the Object Panel and all its Features you have to be in **OBJECT**- mode.<br>
-Move the mouse cursor above any **MESH**- Object and double-click it with your `left mouse` button.<br>It doesn't matter if the choosen object is the current active or selected object.<br>The Object that calls the event becomes the active/ selected object anyhow.<br>
-Only if the object is of a proper kind the Object-Panel will show up and you get access.<br>
-
-You can left-click-hold on the Panel's background to drag it around.<br>
-You can click, you can use slider/tabs/buttons etc. the Panel will stay active.<br>
+    + contains related Information about the selected Object
+    + contains properties to manipulate the object or the Viewport in relation to the object.
 
 #
 
 >## FAQ <a href="#top" style="font-size:12px">to top</a>
 <sub id="faq"></sub>
-<br />
+
+#
+
+`Can I use the Addon with any of the provided objects?`
+- No, the Panel will only show up on a selected object of type of `MESH`.<br /> i.e. _Cubes, Spheres, Cylinder, Planes etc.
+
+`Will the Addon affect Blender's performance in any way?`
+- No.
 
 #
 
