@@ -27,7 +27,7 @@
 
 #
 
->## Requirements <a href="#top" style="font-size:12px">to top</a>
+>## Requirements <sub style="font-size:8px"><a href="#top">to top</a></sub>
 <sub id="require"></sub>
 <br />
 
@@ -37,7 +37,7 @@
 
 #
 
->## Installation <a href="#top" style="font-size:12px">to top</a>
+>## Installation <sub style="font-size:8px"><a href="#top">to top</a></sub>
 <sub id="install"></sub>
 <br />
 
@@ -57,7 +57,7 @@ ___Menu > Edit > Preferences___
 
 #
 
->## Usage <a href="#top" style="font-size:12px">to top</a>
+>## Usage <sub style="font-size:8px"><a href="#top">to top</a></sub>
 <sub id="use"></sub>
 
 + `Pie-Menu`: use _Ctrl+Y_ or your bound key in any Viewport to open BoxMetrix's Pie-Menu<br />and pic any of its containing Elements: `(auto Orientation, switch Workspace, switch Viewport)`
@@ -71,7 +71,7 @@ ___Menu > Edit > Preferences___
 
 #
 
->## FAQ <a href="#top" style="font-size:12px">to top</a>
+>## FAQ <sub style="font-size:8px"><a href="#top">to top</a></sub>
 <sub id="faq"></sub>
 
 #
@@ -84,7 +84,7 @@ ___Menu > Edit > Preferences___
 
 #
 
->## Known Issues <a href="#top" style="font-size:12px;">to top</a>
+>## Known Issues <sub style="font-size:8px"><a href="#top">to top</a></sub>
 <sub id="issues"></sub>
 
 * abnormal loadtime on nested objects with unapplied bevel/subdiv modifier
@@ -103,7 +103,7 @@ ___Menu > Edit > Preferences___
 
 #
 
->## Screenshot <sub style="font-size:10px"><a href="#top">to top</a></sub>
+>## Screenshot <sub style="font-size:8px"><a href="#top">to top</a></sub>
 <sub id="screenshot"></sub>
 | | |
 | - | - |
