@@ -103,7 +103,7 @@ ___Menu > Edit > Preferences___
 
 #
 
->## Screenshot <a href="#top" width="12px">to top</a>
+>## Screenshot <sub style="font-size:13px"><a href="#top" width="12px">to top</a></sub>
 <sub id="screenshot"></sub>
 | | |
 | - | - |
