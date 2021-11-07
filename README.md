@@ -19,11 +19,12 @@
 
 <br />
 
-* runs on native Blender
-* let Blender decide how to calculate pivot axes by toggle on _**auto Orientation**_. <br />Blender will switch **transform Orientation** to _local_, everytime **Edit-Mode** has entered
-* split the viewport and switch to any of the awailable Viewports using the **Pie-Menu**
-* switch to any Workspace from **Pie-Menu**
-* When in **OBJECT-Mode** and _double-click_ on any **MESH-Object** <br />you will get a Panel being drawn within the Viewport that contains all kind of useful Properties <br />which are related to the given Obejct. _see the [manual](docs/manual.md) for further Information._
+* runs on a native Blender version.
+* let Blender decide how to calculate pivot axes by enable _**auto Orientation**_. <br />Blender will switch **transform Orientation** to _local_, everytime the **Edit-Mode** is active.
+* split the active viewport _horizontally_ or _vertically_ by the factor of 0.5
+* change the content of the active Viewport to any of the awailable Viewports using the **Pie-Menu**
+* switch to any of the activated Workspaces from **Pie-Menu**
+* When in **OBJECT-Mode** and _double-clicking_ on any **MESH-Object** <br />a Panel going to be drawn within the Viewport that contains all kind of useful Information and Properties <br />which are related to the given Object. _see the [manual](docs/manual.md) for further Information._
 
 #
 
@@ -43,17 +44,17 @@
 
 + download [boxmetric.zip]() or clone this repository
 + open up your Blender Solution and navigate to the preferences
-<br>
+<br />
 ___Menu > Edit > Preferences___
-+ in the opened Panel navigate to the **Addons** tab on the left hand site.
++ in the Preference Panel navigate to the **Addons** tab on the left hand site.
 + in the upper right corner, click on the button **"install"**
-+ in the upcoming folder dialog, navigate to the folder where you have stored [boxmetric]() in
++ in the upcoming dialog, navigate to the folder where you have stored [boxmetric]() in
 + select either the _boxmetric.zip_ or the _"\_\_init\_\_.py"_ and click on **Install Add-on**.
 + boxmetric is goint to be installed right away.
 + check the Status Message to verify the installation. __green msg = success | red msg = error__ 
-+ after the installation the addon list will be filtered by boxmetric
-+ you will see a tiny checkbox to the left of the addon's name, tick it to activate the addon.
-+ a click on the arrow right beside the checkbox will expand the addon-panel<br> to give access to the addon-settings. Here you can customize the addon to your liking.
++ after the installation succeeded the addon list will be updated and BoxMetrics is on focus
++ to activate the Addon tick the mark on the left hand side of the Addon's name
++ to open the Addon's preferences simply expand the Panel with a click on the arrow right next to the checkbox
 
 #
 
@@ -92,7 +93,7 @@ ___Menu > Edit > Preferences___
 
 #
 
->## Contact <a href="#top" width="12px">to top</a>
+>## Contact <sub style="font-size:8px"><a href="#top">to top</a></sub>
 <sub id="contact"></sub>
 
 |  |  |
@@ -107,11 +108,11 @@ ___Menu > Edit > Preferences___
 <sub id="screenshot"></sub>
 | | |
 | - | - |
-| <img src="images/eary_stage/active_prefs.png" width="150px" height="150"> | Preferences View |
-| <img src="images/eary_stage/autoOrient.png" width="150px" height="150"> | auto Transform Orientation activated |
-| <img src="images/eary_stage/no_autoOrient.png" width="150px" height="150"> | auto Transform Orientation deactivated |
-| <img src="images/eary_stage/panel_active.png" width="150px" height="150"> | Panel after double click |
-| <img src="images/eary_stage/panel_changings.png" width="150px" height="150"> | some altered Properties |
-| <img src="images/eary_stage/prop_tuning.png" width="150px" height="150"> | Blender Properties altered in Panel |
-| <img src="images/eary_stage/viewport_madness.png" width="150px" height="150"> | a couple viewports drawn and its content changed from Pie-Menu only |
-| <img src="images/eary_stage/workspaces.png" width="150px" height="150"> | switched workspaces from Pie-Menu only |
+| <img src="images/eary_stage/active_prefs.png" width="150px" height="150"> | <img src="images/eary_stage/autoOrient.png" width="150px" height="150">|
+| Preferences View | auto Transform Orientation activated |
+| <img src="images/eary_stage/no_autoOrient.png" width="150px" height="150"> | <img src="images/eary_stage/panel_active.png" width="150px" height="150"> |
+| auto Transform Orientation deactivated | Panel after double click |
+| <img src="images/eary_stage/panel_changings.png" width="150px" height="150"> | <img src="images/eary_stage/prop_tuning.png" width="150px" height="150"> |
+| some altered Properties | Blender Properties altered in Panel |
+| <img src="images/eary_stage/viewport_madness.png" width="150px" height="150"> | <img src="images/eary_stage/workspaces.png" width="150px" height="150"> |
+| a couple viewports drawn and its content changed from Pie-Menu only | switched workspaces from Pie-Menu only |
