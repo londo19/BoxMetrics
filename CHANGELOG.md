@@ -69,4 +69,3 @@ _*it relates on the Blender's activated Top-Header-Tabs*_
 </sub>
 - **views** Sub-Menu to switch among all possible viewports at any workspace<br>and regardless the depth of separated viewports
 - **Double-Click** event for the 3D-Viewport that gets activated only under limited conditions.
-</div>
