@@ -2,12 +2,15 @@
 
 ##### [Version 0.0.0.756]()
 
->## `Feature added`
+>## <span style="color:#FFD080">Feature added`</span>
 
   - added auto Orientation to Pie-Menu and as settable property
   - added Tabs to the Panel to group related properties tab-wise
   - added groups of properties that mirrors built-in property Panels.
   - added split functionality to the Pie-Menu.<br />Ability to split the Viewport from Pie-Menu, horizontally and vertically by the factor of _0.5_.
+  - added a new Tab structure to the `Object-Panel`
+    + all properties with a direct relation to the _selected object_ are grouped under a single Tab.
+    + Placeholder
 
 >## `Bug fixes`
 
@@ -16,6 +19,7 @@
 >## `Removed`
   - Submenu from Pie-Menu that created default Primitives to the Scene
   - additional Information Panel from the function tree
+  - removed `Tabs_Menu` from the Object-Panel that was responsible to group properties
 
 
 #
