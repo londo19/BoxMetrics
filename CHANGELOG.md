@@ -2,7 +2,7 @@
 
 ##### [Version 0.0.0.756]()
 
->## <span style="color:#FFD080">Feature added`</span>
+>## `Feature added`
 
   - added auto Orientation to Pie-Menu and as settable property
   - added Tabs to the Panel to group related properties tab-wise
