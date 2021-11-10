@@ -10,7 +10,7 @@
   - added split functionality to the Pie-Menu.<br />Ability to split the Viewport from Pie-Menu, horizontally and vertically by the factor of _0.5_.
   - added a new Tab structure to the `Object-Panel`
     + all properties with a direct relation to the _selected object_ are grouped under a single Tab.
-    + Placeholder
+    + from property panel, added all World, Scene, View Layer and Output properties into the Tab_Panel
 
 >## `Bug fixes`
 
