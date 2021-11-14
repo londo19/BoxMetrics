@@ -1,5 +1,23 @@
 # Change Log
 
+##### [Version 0.0.762]()
+
+>## `Feature added`
+
+  - each property of the property panel `RENDER` added
+  - each property of the property panel `WORLD` added
+  - each property of the property panel `SCENE` added
+
+>## `Bug fixes`
+
+- none
+
+>## `Removed`
+  none
+
+
+#
+
 ##### [Version 0.0.756]()
 
 >## `Feature added`

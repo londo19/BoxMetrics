@@ -12,7 +12,7 @@
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with BoxMetrics.  If not, see <https://www.gnu.org/licenses/>.        
+    along with BoxMetrics.  If not, see <https://www.gnu.org/licenses/>.
 """
 
 import bpy
@@ -39,25 +39,25 @@ class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
     """
 
     bl_idname = package_name(__file__)
-    
+
     # retrieve all necessary data from the config file
     cm = BM_ConfigManager()
     _bm_prefs = preferences(bpy.context, __file__)
-    #bm_prop_tabs = rebuildTuple(cm.config['GLOBAL']['ds_PropertyTabs'])
-    #bm_pie_items = rebuildTuple(cm.config['GLOBAL']['ds_PieItems'])
+    # bm_prop_tabs = rebuildTuple(cm.config['GLOBAL']['ds_PropertyTabs'])
+    # bm_pie_items = rebuildTuple(cm.config['GLOBAL']['ds_PieItems'])
 
     bm_prop_tabs = [
-        ("GENERAL", "General", "", "",1),
-        ("SCENE", "Scene", "","",2),
-        ("OBJECT", "Object", "","",3),
-        ("PIE", "Pie-Menu", "","",4)
+        ("GENERAL", "General", "", "", 1),
+        ("SCENE", "Scene", "", "", 2),
+        ("OBJECT", "Object", "", "", 3),
+        ("PIE", "Pie-Menu", "", "", 4)
     ]
     bm_pie_items = [
         ("vp", "bm_viewport", "show/hide Dropdown in Pie-Menu", "", 1),
         ("ws", "bm_workspaces", "show/hide Dropdown in Pie-Menu", "", 2)
     ]
 
-    BM_PropTabsEnum:EnumProperty(
+    BM_PropTabsEnum: EnumProperty(
         items=bm_prop_tabs
     )
     BM_PieItems: EnumProperty(
@@ -71,8 +71,6 @@ class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
             context (any): (read-only)properties of the area that called the method.
         """
 
-
-        
         # define the layout
         layout = self.layout
         row = layout.row()
@@ -104,7 +102,6 @@ class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
 
             self.__fillPiePanel(boxP)
 
-
     def __fillGeneralPanel(self, parent):
         """adding 'GENERAL' Information to the Panel
 
@@ -122,7 +119,6 @@ class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
         col2.prop(self, "bm_blength", text="General")
         col2.prop(self, "bm_autoOrientation", text="auto Orientation")
 
-
     def __fillScenePanel(self, parent):
         """adding 'SCENE' Information to the Panel
 
@@ -130,9 +126,8 @@ class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
             parent (UILayout): the layout on which to bind the Elements
         """
         row1 = parent.row()
-        self.__fillProps(row1, "bm_ui_mode", **{'param':'expand', 'value':False})
-        self.__fillProps(row1, "bm_blength", **{'param':'text', 'value':'Irgendwas'})
-
+        self.__fillProps(row1, "bm_ui_mode", **{'param': 'expand', 'value': False})
+        self.__fillProps(row1, "bm_blength", **{'param': 'text', 'value': 'Irgendwas'})
 
     def __fillObjPanel(self, parent):
         """adding 'OBJECT' Information to the Panel
@@ -142,9 +137,8 @@ class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
         """
         row1 = parent.row()
 
-        self.__fillProps(row1, "bm_ui_mode", **{'param':'expand', 'value':False})
-        self.__fillProps(row1, "bm_blength", **{'param':'text', 'value':'Irgendwas'})
-        
+        self.__fillProps(row1, "bm_ui_mode", **{'param': 'expand', 'value': False})
+        self.__fillProps(row1, "bm_blength", **{'param': 'text', 'value': 'Irgendwas'})
 
     def __fillPiePanel(self, parent):
         """adding 'PIE-MENU' Information to the Panel
@@ -156,8 +150,6 @@ class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
 
         self.__fillProps(row1, "bm_viewports")
         self.__fillProps(row1, "bm_workspaces")
-
-
 
     def __fillProps(self, item, props, param=None, value=None):
         """Helper method to draw properties with a different set of parameter
@@ -171,7 +163,7 @@ class BM_Properties(AddonPreferences, BM_PiePrefs, BM_GeneralPrefs):
         Returns:
             [type]: [description]
         """
-        if param == None:
+        if param is None:
             return item.prop(self, props)
         elif param == "text":
             return item.prop(self, props, text=value)
