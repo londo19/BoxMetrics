@@ -1,6 +1,6 @@
 # Change Log
 
-##### [Version 0.0.0.756]()
+##### [Version 0.0.756]()
 
 >## `Feature added`
 
@@ -10,7 +10,7 @@
   - added split functionality to the Pie-Menu.<br />Ability to split the Viewport from Pie-Menu, horizontally and vertically by the factor of _0.5_.
   - added a new Tab structure to the `Object-Panel`
     + all properties with a direct relation to the _selected object_ are grouped under a single Tab.
-    + from property panel, added all World, Scene, View Layer and Output properties into the Tab_Panel
+    + start to transfer each section of the Property-Panel into the Tab system
 
 >## `Bug fixes`
 
@@ -24,7 +24,7 @@
 
 #
 
-##### [Version 0.0.0.686]()
+##### [Version 0.0.686]()
 
 >## `Feature added`
 
@@ -45,7 +45,7 @@
 
 #
 
-##### [Version 0.0.0.659]()
+##### [Version 0.0.659]()
 
 >## `Feature added`
 
@@ -68,7 +68,7 @@
 
 #
 
-##### [Version 0.0.0.423]()
+##### [Version 0.0.423]()
 >## `Initialize Tool`
 
 * __new Pie-Menu__
