@@ -1,5 +1,62 @@
 # Change Log
 
+##### [Version 0.0.842]()
+
+>## `Feature added`
+
+  - each property of the property panel `MODIFIER` added
+    + Triangulate modifier
+    + Weld modifier
+    + Wireframe modifier
+
+  - custom Icon-Set added
+  - preparation for custom widgets implementation
+
+>## `Bug fixes`
+
+- none
+
+>## `Removed`
+- none
+
+#
+
+##### [Version 0.0.816]()
+
+>## `Feature added`
+
+  - each property of the property panel `MODIFIER` added
+    + Array modifier
+    + Bevel modifier
+    + Subsurf modifier
+    + mirror modifier
+
+>## `Bug fixes`
+
+- fixed an Issue where the Addon lost its keybindings after `Blender` was restarted.
+
+>## `Removed`
+- none
+
+#
+
+##### [Version 0.0.785]()
+
+>## `Feature added`
+
+  - each property of the property panel `VIEW LAYER` added
+  - each property of the property panel `OUTPUT` added
+  - each property of the property panel `COLLECTION` added
+
+>## `Bug fixes`
+
+- none
+
+>## `Removed`
+- none
+
+#
+
 ##### [Version 0.0.762]()
 
 >## `Feature added`
@@ -13,8 +70,7 @@
 - none
 
 >## `Removed`
-  none
-
+- none
 
 #
 
@@ -38,7 +94,6 @@
   - Submenu from Pie-Menu that created default Primitives to the Scene
   - additional Information Panel from the function tree
   - removed `Tabs_Menu` from the Object-Panel that was responsible to group properties
-
 
 #
 
@@ -87,6 +142,7 @@
 #
 
 ##### [Version 0.0.423]()
+
 >## `Initialize Tool`
 
 * __new Pie-Menu__

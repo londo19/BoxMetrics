@@ -1,0 +1,28 @@
+{
+    "ISSUES": {
+        "General": {
+            "STRUCTURE": {
+                "Class Structure": "Modifier are built statically!",
+                "FIX": "Design Pattern Structure has to be worked out."
+            }
+        },
+        "2.93": {
+            "ERROR": {
+                "RENDER_PT_frame_range": "load error on addon init"
+            }
+        },
+        "3.10": {
+            "ERROR": {
+
+            }
+        }
+    },
+    "KNOWLEDGE": {
+        "UI": {
+            "Area": {
+                "code": "ops.screen.area_close",
+                "description": "closes a split area in a viewport"
+            }
+        }
+    }
+}
