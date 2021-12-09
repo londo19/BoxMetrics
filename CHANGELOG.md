@@ -3,7 +3,8 @@
 ##### [Version 0.0.842]()
 
 >## `Feature added`
-
+  
+  - dynamically calculation of required space to display modifiers 
   - each property of the property panel `MODIFIER` added
     + Triangulate modifier
     + Weld modifier
