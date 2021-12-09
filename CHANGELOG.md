@@ -1,5 +1,22 @@
 # Change Log
 
+##### [Version 0.0.898]()
+
+>## `Feature added`
+  
+  - appropriate reorder and renaming
+  - to keep the native `Selection` feature from Blender
+    you have to hold `ctrl` and `double click` to enter the Object context
+  
+
+>## `Bug fixes`
+
+- fixed missing panels after `Full-Mode` has been left and `Normal-Mode` has entered
+
+>## `Removed`
+- unnecessary panel what asked a question already been answered.
+
+#
 ##### [Version 0.0.842]()
 
 >## `Feature added`
