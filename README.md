@@ -110,10 +110,10 @@ ___Menu > Edit > Preferences___
 | | |
 | - | - |
 | Preferences View | auto Transform Orientation activated |
-| <img src="/images/eary_stage/active_prefs.png" width="150px" height="150"> | <img src="images/eary_stage/autoOrient.png" width="150px" height="150">|
+| <img src="/images/early_stage/active_prefs.png" width="150px" height="150"> | <img src="images/early_stage/autoOrient.png" width="150px" height="150">|
 | auto Transform Orientation deactivated | Panel after double click |
-| <img src="images/eary_stage/no_autoOrient.png" width="150px" height="150"> | <img src="images/eary_stage/panel_active.png" width="150px" height="150"> |
+| <img src="images/early_stage/no_autoOrient.png" width="150px" height="150"> | <img src="images/early_stage/panel_active.png" width="150px" height="150"> |
 | some altered Properties | Blender Properties altered in Panel |
-| <img src="images/eary_stage/panel_changings.png" width="150px" height="150"> | <img src="images/eary_stage/prop_tuning.png" width="150px" height="150"> |
+| <img src="images/early_stage/panel_changings.png" width="150px" height="150"> | <img src="images/early_stage/prop_tuning.png" width="150px" height="150"> |
 | a couple viewports drawn and its content changed from Pie-Menu only | switched workspaces from Pie-Menu only |
-| <img src="images/eary_stage/viewport_madness.png" width="150px" height="150"> | <img src="images/eary_stage/workspaces.png" width="150px" height="150"> |
+| <img src="images/early_stage/viewport_madness.png" width="150px" height="150"> | <img src="images/early_stage/workspaces.png" width="150px" height="150"> |
