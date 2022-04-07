@@ -110,7 +110,7 @@ ___Menu > Edit > Preferences___
 | | |
 | - | - |
 | Preferences View | auto Transform Orientation activated |
-| <img src="images/eary_stage/active_prefs.png" width="150px" height="150"> | <img src="images/eary_stage/autoOrient.png" width="150px" height="150">|
+| <img src="/images/eary_stage/active_prefs.png" width="150px" height="150"> | <img src="images/eary_stage/autoOrient.png" width="150px" height="150">|
 | auto Transform Orientation deactivated | Panel after double click |
 | <img src="images/eary_stage/no_autoOrient.png" width="150px" height="150"> | <img src="images/eary_stage/panel_active.png" width="150px" height="150"> |
 | some altered Properties | Blender Properties altered in Panel |
